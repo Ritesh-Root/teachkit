@@ -41,6 +41,7 @@
 - Added the timed demo script in `VIDEO_SCRIPT.md` and the teacher review protocol in `EVALUATION.md`.
 - Created the external Devpost draft at `https://devpost.com/software/teachkit` with an honest preview description and thumbnail. It is not submitted to the hackathon.
 - Created a 51-second narrated fallback-preview draft at `output/video/teachkit-preview-draft.mp4` using an offline synthetic voice. It is not the final YouTube demo.
+- Completed the final deployed-preview security gate with no critical, high, or medium preview findings; the live paid endpoint remains blocked by distributed rate limiting and spend controls.
 
 ## Still pending
 

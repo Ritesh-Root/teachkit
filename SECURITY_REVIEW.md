@@ -29,6 +29,7 @@ Live deployment gate: blocked until distributed rate limits and OpenAI project s
 - Validation logging cannot change generation behavior if its callback fails.
 - Lint, typecheck, 22 tests, production build, browser fallback flow, and five-page A4 rendering pass.
 - An independent post-change static review found no new critical, high, or medium issues in the sample selector, privacy copy, fallback, or asset paths.
+- The final deployed-preview review found no critical, high, or medium findings in preview mode and confirmed that no selected image bytes or OpenAI key reach the client or model route.
 
 ## Not tested yet
 
