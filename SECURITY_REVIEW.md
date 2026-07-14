@@ -6,7 +6,9 @@ Reviewed on July 15, 2026 after the first complete English workflow, the Editori
 
 Local application gate: pass.
 
-Public deployment gate: blocked until Vercel Firewall rate limits and OpenAI project spend limits and alerts are configured and verified. The in-process ceiling protects one server instance, not the whole deployment.
+Fallback-only preview gate: pass. The deployed preview has no OpenAI key, labels its state, and does not send the selected source to OpenAI.
+
+Live deployment gate: blocked until distributed rate limits and OpenAI project spend limits and alerts are configured and verified. Vercel Firewall custom rules are unavailable on the current plan. The in-process ceiling protects one server instance, not the whole deployment.
 
 ## Controls verified
 
@@ -31,12 +33,12 @@ Public deployment gate: blocked until Vercel Firewall rate limits and OpenAI pro
 ## Not tested yet
 
 - A live GPT-5.6 image or topic request
-- Vercel Firewall rules, production headers, logs, or concurrency behavior
+- Distributed rate-limit behavior and the final live deployment
 - OpenAI project spend limits and alerts
 - Load, malformed multipart, disconnect, and platform-timeout testing
 - Active exploit testing (intentionally outside the project verification plan)
 
-Static review, automated tests, and dependency audits pass. Deployment controls remain required security gates.
+Static review, automated tests, and dependency audits pass. The fallback-only preview is safe to share as a preview. Live deployment controls remain required security gates.
 
 ## Residual risks
 

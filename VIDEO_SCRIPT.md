@@ -65,3 +65,5 @@ Narration:
 ## Preview-only recording note
 
 Until the live API validation exists, any recording must retain the yellow preview banner and the on-screen fallback notice. Do not edit those labels out or narrate the authored pack as model output.
+
+The local preview draft is stored at `output/video/teachkit-preview-draft.mp4`. It is 51 seconds long, uses an offline synthetic voice, and states that live GPT-5.6 is disabled. This file is B-roll only and is intentionally ignored by Git.

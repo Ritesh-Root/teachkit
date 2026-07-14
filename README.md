@@ -4,6 +4,12 @@ TeachKit turns a textbook page into a printable, differentiated lesson pack. A t
 
 This project is being built for the Education track of OpenAI Build Week 2026.
 
+- Fallback-only hosted preview: [teachkit-kappa.vercel.app](https://teachkit-kappa.vercel.app)
+- Public repository: [github.com/Ritesh-Root/teachkit](https://github.com/Ritesh-Root/teachkit)
+- Devpost project draft: [devpost.com/software/teachkit](https://devpost.com/software/teachkit)
+
+The hosted preview demonstrates the interface, labeled authored fallback, and A4 print flow. Live GPT-5.6 generation is disabled there.
+
 ## Current status
 
 The English workflow is implemented locally:

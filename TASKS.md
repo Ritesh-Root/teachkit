@@ -15,17 +15,19 @@
 - [ ] Configure OpenAI project spend limits and alerts.
 - [ ] Configure platform rate limiting.
 - [x] Add an always-visible fallback-preview banner and prevent preview uploads from being sent to OpenAI.
-- [ ] Publish and verify the fallback-only preview without an API key.
+- [x] Publish the fallback-only preview without an API key at `https://teachkit-kappa.vercel.app`.
 - [x] Add a per-instance concurrency ceiling and `429` behavior.
 - [x] Run the full local verification suite.
 - [x] Complete the static security review.
 
 ## Submission
 
-- [ ] Public repository and license.
+- [x] Public repository and license at `https://github.com/Ritesh-Root/teachkit`.
 - [ ] Final live Vercel URL with effortless sample flow.
 - [x] Create the teacher evaluation protocol.
 - [x] Create the timed demo-video script and shot list.
+- [x] Create a narrated fallback-preview video draft for B-roll.
+- [x] Create the external Devpost project draft without submitting it.
 - [ ] Demo video under three minutes with voiceover.
 - [ ] Explain Codex and GPT-5.6 in the video.
 - [ ] Run `/feedback` in the main Codex build thread.

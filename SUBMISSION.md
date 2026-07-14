@@ -1,6 +1,6 @@
 # Submission control sheet
 
-Status on July 15, 2026: not ready to submit.
+Status on July 15, 2026: repository and fallback-only preview published; not ready to submit.
 
 The local product is strong enough to continue, but the entry still lacks proof of a successful live GPT-5.6 run, a final judge-accessible live deployment, a public demo video, and the required `/feedback` Session ID. A fallback-only preview does not satisfy the GPT-5.6 requirement.
 
@@ -34,12 +34,13 @@ Before any live request:
 | Gate | Status | Evidence or owner action |
 | --- | --- | --- |
 | Education track | Ready | README and product scope consistently target teachers |
-| Codex is central | Partial | Workflow and decisions are documented, but the work is not committed and `/feedback` is missing |
+| Codex is central | Partial | Workflow, commits, and decisions are documented, but `/feedback` is missing |
 | GPT-5.6 is central | Partial | Two-call implementation and tests pass, but no live request has succeeded |
 | Working local product | Ready for fallback demo | Image, sample, topic, streaming UI, fallback, and A4 print flow are implemented |
 | Six original samples | Ready | Six SVG and PNG pairs are available under `public/samples/` |
-| Repository URL | Blocked | Configure a Git remote, create reviewable commits, then publish or share the repository |
-| Fallback-only preview | Ready to deploy | Must remain labeled and must not be presented as the final GPT-5.6 application |
+| Repository URL | Ready | `https://github.com/Ritesh-Root/teachkit` is public with MIT and CC BY 4.0 licenses |
+| Fallback-only preview | Ready | `https://teachkit-kappa.vercel.app` is labeled and does not send the selected source to OpenAI |
+| Devpost project draft | Ready | `https://devpost.com/software/teachkit` exists with honest preview copy and has not been submitted |
 | Final judge-accessible app | Blocked | Configure a Platform API key, edge rate limits, and OpenAI spend controls before the live deployment |
 | Demo video | Blocked | Record and publish after the deployed live flow passes |
 | `/feedback` Session ID | Blocked | Run `/feedback` in the primary build thread and copy the ID into Devpost |
@@ -122,9 +123,10 @@ Minimum credible evidence for the entry:
 - [ ] Request the event's Codex credits before the resources-page deadline if not already requested.
 - [ ] Configure an OpenAI API project, spend limit, alert, billing or quota, and a server-side key.
 - [ ] Run the approved live validation and complete the evidence record above.
-- [ ] Configure Vercel Firewall rate limiting for `POST /api/lesson-pack`.
+- [ ] Configure distributed rate limiting for `POST /api/lesson-pack`. Vercel Firewall rules are unavailable on the current plan, so use a supported plan or another distributed limiter before enabling the live key.
 - [ ] Deploy and verify the production sample flow, headers, logs, fallback, and controlled `429` response.
-- [ ] Create reviewable Git commits and publish or share the repository.
+- [x] Create reviewable Git commits and publish the repository.
 - [ ] Record and publish the narrated YouTube video.
 - [ ] Run `/feedback` in the primary Codex thread.
-- [ ] Fill every required Devpost field and make sure the entry is submitted rather than left as a draft.
+- [x] Create the TeachKit Devpost project draft with repository and preview links.
+- [ ] Replace preview copy with validated live evidence, fill every required hackathon field, and submit rather than leaving the entry as a draft.

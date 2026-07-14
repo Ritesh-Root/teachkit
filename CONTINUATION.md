@@ -35,20 +35,26 @@
 - Added a concise in-app material-permission and data-handling notice.
 - Added `SUBMISSION.md` as the canonical artifact checklist, draft Devpost copy, video outline, evidence record, and consistency lock.
 - Verified all six samples in desktop and mobile browser layouts, completed the labeled no-key fallback flow with zero console errors, and rendered a five-page A4 lesson pack without clipping or overlap.
+- Published the public repository at `https://github.com/Ritesh-Root/teachkit` with separate implementation and documentation commits.
+- Published the fallback-only Vercel deployment at `https://teachkit-kappa.vercel.app` with no OpenAI environment variable.
+- Added an always-visible preview banner and verified through the browser request body that preview generation sends only a placeholder topic, not the selected image.
+- Added the timed demo script in `VIDEO_SCRIPT.md` and the teacher review protocol in `EVALUATION.md`.
+- Created the external Devpost draft at `https://devpost.com/software/teachkit` with an honest preview description and thumbnail. It is not submitted to the hackathon.
+- Created a 51-second narrated fallback-preview draft at `output/video/teachkit-preview-draft.mp4` using an offline synthetic voice. It is not the final YouTube demo.
 
 ## Still pending
 
 - A live OpenAI API smoke test has not been run.
 - The repository-local `.env.local` does not contain an approved `OPENAI_API_KEY`, so live evidence has not been captured.
-- Multilingual output, deployment, and platform rate limits are pending.
-- The app must not be deployed publicly until Vercel rate limits and OpenAI spend controls are configured.
-- No Git remote is configured, most TeachKit work is uncommitted, and the required deployment URL, demo video, Devpost copy, and `/feedback` Session ID are not complete.
+- Multilingual output, the final live deployment, and distributed rate limits are pending.
+- The fallback-only preview is deployed, but the app must not receive a live key until distributed rate limits and OpenAI spend controls are configured.
+- The required live demo video, teacher results, final Devpost fields, and `/feedback` Session ID are not complete.
 - Opening the local app as `http://127.0.0.1:3000` currently triggers the origin guard; use the documented `http://localhost:3000` URL.
 - The implemented Figma source remains `https://www.figma.com/design/2O9MsnUsYN0jJvf7xQVzDP?node-id=11-11`.
 
 ## Next best step
 
-Add the approved key to `.env.local`, then run one water-cycle request with `TEACHKIT_VALIDATION_TRACE=1`. Confirm two distinct upstream request IDs, both schema-valid events, three streamed worksheets, zero fallback events, total latency, and the final A4 print output. Fix any live mismatch before multilingual work or deployment.
+Choose whether to use a small dedicated OpenAI Platform budget for the required live GPT-5.6 path. A Codex subscription session cannot safely replace the public API credential. If API use remains disallowed, keep the project in preview state and do not submit it as compliant.
 
 ## Important files
 
