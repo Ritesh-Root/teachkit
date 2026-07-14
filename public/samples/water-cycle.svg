@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1050" role="img" aria-labelledby="title description">
+  <title id="title">TeachKit sample textbook page about the water cycle</title>
+  <desc id="description">An original educational page showing evaporation, condensation, precipitation, and collection.</desc>
+  <rect width="800" height="1050" fill="#fffdf8"/>
+  <rect x="0" y="0" width="18" height="1050" fill="#295e50"/>
+  <text x="70" y="90" fill="#295e50" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">SCIENCE · GRADE 4</text>
+  <text x="70" y="155" fill="#202a2e" font-family="Georgia, serif" font-size="58" font-weight="700">The Water Cycle</text>
+  <text x="70" y="202" fill="#5e696c" font-family="Arial, sans-serif" font-size="24">Water travels in a never-ending journey around Earth.</text>
+
+  <rect x="70" y="245" width="660" height="410" rx="24" fill="#e7eef3" stroke="#b9c9d3" stroke-width="2"/>
+  <circle cx="620" cy="330" r="54" fill="#e9b949"/>
+  <g fill="#fffdf8" stroke="#a6bcc9" stroke-width="3">
+    <ellipse cx="330" cy="350" rx="82" ry="38"/>
+    <ellipse cx="265" cy="365" rx="55" ry="33"/>
+    <ellipse cx="395" cy="367" rx="62" ry="35"/>
+  </g>
+  <path d="M70 548 Q180 500 290 548 T510 548 T730 548 V655 H70Z" fill="#6ba5bf"/>
+  <path d="M70 584 Q180 536 290 584 T510 584 T730 584" fill="none" stroke="#d8edf4" stroke-width="7"/>
+  <path d="M195 530 C190 475 218 445 220 400" fill="none" stroke="#a65338" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 400 l-15 22 m15-22 13 23" fill="none" stroke="#a65338" stroke-width="8" stroke-linecap="round"/>
+  <path d="M435 410 C480 435 494 470 490 520" fill="none" stroke="#3f6884" stroke-width="8" stroke-linecap="round"/>
+  <path d="M490 520 l-14-22 m14 22 15-21" fill="none" stroke="#3f6884" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#3f6884">
+    <path d="M438 425 C438 425 422 448 422 459 a16 16 0 0 0 32 0 c0-11-16-34-16-34Z"/>
+    <path d="M493 440 C493 440 477 463 477 474 a16 16 0 0 0 32 0 c0-11-16-34-16-34Z"/>
+    <path d="M548 426 C548 426 532 449 532 460 a16 16 0 0 0 32 0 c0-11-16-34-16-34Z"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <rect x="96" y="360" width="150" height="42" rx="10" fill="#f5e9e3"/>
+    <text x="116" y="388" fill="#85412d">EVAPORATION</text>
+    <rect x="265" y="280" width="168" height="42" rx="10" fill="#e4efea"/>
+    <text x="283" y="308" fill="#315b49">CONDENSATION</text>
+    <rect x="468" y="365" width="172" height="42" rx="10" fill="#e7eef3"/>
+    <text x="486" y="393" fill="#31546b">PRECIPITATION</text>
+    <rect x="470" y="570" width="145" height="42" rx="10" fill="#fffdf8"/>
+    <text x="489" y="598" fill="#31546b">COLLECTION</text>
+  </g>
+
+  <text x="70" y="725" fill="#202a2e" font-family="Georgia, serif" font-size="34" font-weight="700">Four stages, one continuous cycle</text>
+  <g font-family="Arial, sans-serif" font-size="22">
+    <circle cx="88" cy="782" r="18" fill="#3e725b"/>
+    <text x="82" y="790" fill="white" font-size="20" font-weight="700">1</text>
+    <text x="122" y="789" fill="#344145"><tspan font-weight="700">Evaporation:</tspan> The Sun warms liquid water into vapor.</text>
+    <circle cx="88" cy="837" r="18" fill="#3e725b"/>
+    <text x="82" y="845" fill="white" font-size="20" font-weight="700">2</text>
+    <text x="122" y="844" fill="#344145"><tspan font-weight="700">Condensation:</tspan> Cooling vapor forms tiny droplets.</text>
+    <circle cx="88" cy="892" r="18" fill="#3e725b"/>
+    <text x="82" y="900" fill="white" font-size="20" font-weight="700">3</text>
+    <text x="122" y="899" fill="#344145"><tspan font-weight="700">Precipitation:</tspan> Water falls from clouds.</text>
+    <circle cx="88" cy="947" r="18" fill="#3e725b"/>
+    <text x="82" y="955" fill="white" font-size="20" font-weight="700">4</text>
+    <text x="122" y="954" fill="#344145"><tspan font-weight="700">Collection:</tspan> Water gathers and the journey begins again.</text>
+  </g>
+  <text x="70" y="1012" fill="#7a8385" font-family="Arial, sans-serif" font-size="16">Original TeachKit sample · CC BY 4.0</text>
+</svg>

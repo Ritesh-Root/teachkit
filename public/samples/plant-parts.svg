@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1050" role="img" aria-labelledby="title description">
+  <title id="title">TeachKit sample textbook page about plant parts</title>
+  <desc id="description">An original educational page showing how roots, stems, leaves, and flowers help a plant survive.</desc>
+  <rect width="800" height="1050" fill="#fffdf8"/>
+  <rect width="18" height="1050" fill="#295e50"/>
+  <text x="70" y="90" fill="#295e50" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">SCIENCE · GRADE 3</text>
+  <text x="70" y="155" fill="#202a2e" font-family="Georgia, serif" font-size="54" font-weight="700">How Plant Parts Work</text>
+  <text x="70" y="202" fill="#5e696c" font-family="Arial, sans-serif" font-size="24">Each part has a job that helps the whole plant live.</text>
+
+  <rect x="70" y="245" width="660" height="470" rx="24" fill="#eef4e8" stroke="#c8d6bf" stroke-width="2"/>
+  <rect x="70" y="575" width="660" height="140" rx="0" fill="#d8c0a0"/>
+  <line x1="385" y1="600" x2="385" y2="360" stroke="#3e725b" stroke-width="20" stroke-linecap="round"/>
+  <path d="M385 420 C315 365 245 380 225 445 C295 475 350 460 385 420Z" fill="#67a55c"/>
+  <path d="M385 485 C455 430 525 442 550 510 C485 535 425 525 385 485Z" fill="#67a55c"/>
+  <g fill="#e9b949" stroke="#a65338" stroke-width="4">
+    <circle cx="385" cy="320" r="30"/>
+    <circle cx="385" cy="270" r="28"/><circle cx="435" cy="320" r="28"/><circle cx="385" cy="370" r="28"/><circle cx="335" cy="320" r="28"/>
+  </g>
+  <g fill="none" stroke="#85412d" stroke-width="8" stroke-linecap="round">
+    <path d="M385 600 C355 660 315 665 285 700"/><path d="M385 600 C420 650 465 670 500 705"/><path d="M385 610 C385 660 380 680 375 708"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <rect x="100" y="285" width="120" height="42" rx="10" fill="#f5e9e3"/><text x="126" y="313" fill="#85412d">FLOWER</text>
+    <line x1="220" y1="306" x2="330" y2="315" stroke="#85412d" stroke-width="3"/>
+    <rect x="95" y="445" width="112" height="42" rx="10" fill="#e4efea"/><text x="125" y="473" fill="#315b49">LEAF</text>
+    <line x1="207" y1="466" x2="250" y2="445" stroke="#315b49" stroke-width="3"/>
+    <rect x="575" y="435" width="112" height="42" rx="10" fill="#e4efea"/><text x="600" y="463" fill="#315b49">STEM</text>
+    <line x1="575" y1="456" x2="398" y2="475" stroke="#315b49" stroke-width="3"/>
+    <rect x="570" y="640" width="115" height="42" rx="10" fill="#f5e9e3"/><text x="598" y="668" fill="#85412d">ROOTS</text>
+    <line x1="570" y1="661" x2="500" y2="680" stroke="#85412d" stroke-width="3"/>
+  </g>
+
+  <text x="70" y="785" fill="#202a2e" font-family="Georgia, serif" font-size="34" font-weight="700">A team of four jobs</text>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#344145">
+    <text x="85" y="835"><tspan font-weight="700" fill="#315b49">Roots</tspan> take in water and hold the plant steady.</text>
+    <text x="85" y="875"><tspan font-weight="700" fill="#315b49">Stems</tspan> support the plant and move water upward.</text>
+    <text x="85" y="915"><tspan font-weight="700" fill="#315b49">Leaves</tspan> use light, air, and water to make food.</text>
+    <text x="85" y="955"><tspan font-weight="700" fill="#315b49">Flowers</tspan> help the plant make seeds.</text>
+  </g>
+  <text x="70" y="1018" fill="#7a8385" font-family="Arial, sans-serif" font-size="16">Original TeachKit sample · CC BY 4.0</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1050" role="img" aria-labelledby="title description">
+  <title id="title">TeachKit sample textbook page about simple machines</title>
+  <desc id="description">An original educational page comparing levers, pulleys, inclined planes, and wheel and axle systems.</desc>
+  <rect width="800" height="1050" fill="#fffdf8"/>
+  <rect width="18" height="1050" fill="#3f6884"/>
+  <text x="70" y="90" fill="#3f6884" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">SCIENCE · GRADE 6</text>
+  <text x="70" y="155" fill="#202a2e" font-family="Georgia, serif" font-size="54" font-weight="700">Simple Machines at Work</text>
+  <text x="70" y="202" fill="#5e696c" font-family="Arial, sans-serif" font-size="24">Machines change the size or direction of a force.</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="250" width="310" height="280" rx="22" fill="#f5e9e3"/>
+    <text x="95" y="292" fill="#85412d" font-size="22" font-weight="700">LEVER</text>
+    <polygon points="210,430 250,350 290,430" fill="#a65338"/>
+    <line x1="115" y1="365" x2="335" y2="415" stroke="#344145" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="125" cy="350" r="34" fill="#e9b949"/>
+    <text x="95" y="494" fill="#344145" font-size="18">A rigid bar pivots on a fulcrum.</text>
+
+    <rect x="420" y="250" width="310" height="280" rx="22" fill="#e7eef3"/>
+    <text x="445" y="292" fill="#31546b" font-size="22" font-weight="700">PULLEY</text>
+    <circle cx="575" cy="355" r="60" fill="#fffdf8" stroke="#3f6884" stroke-width="12"/>
+    <circle cx="575" cy="355" r="14" fill="#3f6884"/>
+    <path d="M515 355 C515 430 500 450 500 480 M635 355 L635 475" fill="none" stroke="#85412d" stroke-width="8"/>
+    <rect x="600" y="442" width="70" height="58" fill="#d9ad68"/>
+    <text x="445" y="494" fill="#344145" font-size="18">A grooved wheel guides a rope.</text>
+
+    <rect x="70" y="560" width="310" height="280" rx="22" fill="#e4efea"/>
+    <text x="95" y="602" fill="#315b49" font-size="22" font-weight="700">INCLINED PLANE</text>
+    <polygon points="120,785 325,785 325,650" fill="#d8c39d" stroke="#9b6e31" stroke-width="4"/>
+    <rect x="220" y="688" width="70" height="58" transform="rotate(-32 255 717)" fill="#a65338"/>
+    <text x="95" y="815" fill="#344145" font-size="18">A slope spreads work over distance.</text>
+
+    <rect x="420" y="560" width="310" height="280" rx="22" fill="#f8f4eb" stroke="#d8d1c4" stroke-width="2"/>
+    <text x="445" y="602" fill="#344145" font-size="22" font-weight="700">WHEEL AND AXLE</text>
+    <circle cx="550" cy="710" r="92" fill="#e7eef3" stroke="#3f6884" stroke-width="10"/>
+    <circle cx="550" cy="710" r="28" fill="#3f6884"/>
+    <rect x="550" y="694" width="125" height="32" rx="12" fill="#a65338"/>
+    <text x="445" y="815" fill="#344145" font-size="18">Two circles rotate together.</text>
+  </g>
+
+  <text x="70" y="900" fill="#202a2e" font-family="Georgia, serif" font-size="32" font-weight="700">The trade-off</text>
+  <text x="70" y="942" fill="#344145" font-family="Arial, sans-serif" font-size="21">A machine can reduce the force needed, but the force usually moves farther.</text>
+  <rect x="70" y="965" width="660" height="35" rx="10" fill="#e7eef3"/>
+  <text x="90" y="989" fill="#31546b" font-family="Arial, sans-serif" font-size="17"><tspan font-weight="700">Find one:</tspan> Which simple machine helps you open a door?</text>
+  <text x="70" y="1024" fill="#7a8385" font-family="Arial, sans-serif" font-size="16">Original TeachKit sample · CC BY 4.0</text>
+</svg>
