@@ -42,6 +42,8 @@
 - Created the external Devpost draft at `https://devpost.com/software/teachkit` with an honest preview description and thumbnail. It is not submitted to the hackathon.
 - Created a 51-second narrated fallback-preview draft at `output/video/teachkit-preview-draft.mp4` using an offline synthetic voice. It is not the final YouTube demo.
 - Completed the final deployed-preview security gate with no critical, high, or medium preview findings; the live paid endpoint remains blocked by distributed rate limiting and spend controls.
+- Created an editable seven-slide Figma Slides deck for the submission-video presentation at `https://www.figma.com/slides/QHU1Tm1kSHMItMwpwT5kZJ` and visually inspected its rendered slides.
+- Created a polished 1080p presentation-preview video at `output/video/teachkit-presentation-preview.mp4`, combining the Figma deck, actual preview UI footage, and an offline synthetic voice. It remains an honest preview artifact, not the required final live-GPT-5.6 demo.
 
 ## Still pending
 
@@ -50,6 +52,7 @@
 - Multilingual output, the final live deployment, and distributed rate limits are pending.
 - The fallback-only preview is deployed, but the app must not receive a live key until distributed rate limits and OpenAI spend controls are configured.
 - The required live demo video, teacher results, final Devpost fields, and `/feedback` Session ID are not complete.
+- The presentation-preview video cannot be uploaded as the final submission demo because it documents the disabled live route rather than showing a verified GPT-5.6 run.
 - Opening the local app as `http://127.0.0.1:3000` currently triggers the origin guard; use the documented `http://localhost:3000` URL.
 - The implemented Figma source remains `https://www.figma.com/design/2O9MsnUsYN0jJvf7xQVzDP?node-id=11-11`.
 
@@ -66,6 +69,7 @@ Choose whether to use a small dedicated OpenAI Platform budget for the required 
 - `src/lib/lesson-pack.ts`
 - `README.md`
 - `SUBMISSION.md`
+- `VIDEO_PREVIEW_SCRIPT.md`
 
 ## Verification
 
