@@ -45,6 +45,7 @@
 - Created an editable seven-slide Figma Slides deck for the submission-video presentation at `https://www.figma.com/slides/QHU1Tm1kSHMItMwpwT5kZJ` and visually inspected its rendered slides.
 - Created a polished 1080p presentation-preview video at `output/video/teachkit-presentation-preview.mp4`, combining the Figma deck, actual preview UI footage, and an offline synthetic voice. It remains an honest preview artifact, not the required final live-GPT-5.6 demo.
 - Attempted one local live water-cycle validation with tracing enabled on July 15. The route emitted only the analysis-call start event and then returned its labeled fallback. A follow-up zero-generation model-availability check rejected the configured credential, so no successful model output, source content, or live completion evidence was recorded.
+- Created a 71.68-second 1080p interactive simulated walkthrough at `output/video/teachkit-simulated-interactive-final-v2.mp4` with Deepgram AI narration. The revised edit uses only native 1920×1080 interface capture, interaction footage, and slides. It retains a persistent disclosure that the lesson pack is illustrative, not a live GPT-5.6 run. The human-reviewed script is in `VIDEO_SIMULATED_INTERACTIVE_SCRIPT.md`.
 
 ## Still pending
 
@@ -54,6 +55,7 @@
 - The fallback-only preview is deployed, but the app must not receive a live key until distributed rate limits and OpenAI spend controls are configured.
 - The required live demo video, teacher results, final Devpost fields, and `/feedback` Session ID are not complete.
 - The presentation-preview video cannot be uploaded as the final submission demo because it documents the disabled live route rather than showing a verified GPT-5.6 run.
+- The simulated Deepgram walkthrough cannot be uploaded as the final submission demo because it uses illustrative output rather than a verified live GPT-5.6 run. If it is published as a preview, disclose that the narration is AI-generated with Deepgram.
 - The currently configured local API credential is invalid. Replace it with a newly created Platform API key before attempting another validation run.
 - Opening the local app as `http://127.0.0.1:3000` currently triggers the origin guard; use the documented `http://localhost:3000` URL.
 - The implemented Figma source remains `https://www.figma.com/design/2O9MsnUsYN0jJvf7xQVzDP?node-id=11-11`.
@@ -72,6 +74,7 @@ Choose whether to use a small dedicated OpenAI Platform budget for the required 
 - `README.md`
 - `SUBMISSION.md`
 - `VIDEO_PREVIEW_SCRIPT.md`
+- `VIDEO_SIMULATED_INTERACTIVE_SCRIPT.md`
 
 ## Verification
 
